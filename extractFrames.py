@@ -2,8 +2,6 @@ import cv2
 import os
 import argparse
 
-#python extractFrames.py --input_path=./my_clips_01Jan2020 --output_path=./my_full_frames
-
 parser = argparse.ArgumentParser()
 
 parser.add_argument("--input_path", help="input path for mp4 files", type=str, default='.')
